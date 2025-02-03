@@ -9,7 +9,7 @@
     { id: 3, nombre: "Raul Gil"},
     { id: 4, nombre: "Luis Campos"},
     { id: 5, nombre: "Blanca Marquez"},
-    { id: 6, nombre: "Maria Arenas"}
+    { id: 6, nombre: "Maria Arenas"},
   ];
   
   export const apartamentos = [
