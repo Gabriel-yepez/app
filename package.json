@@ -2,11 +2,13 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
+  "main": "main.js",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "electron": "electron ."
   },
   "dependencies": {
     "clsx": "^2.1.1",
@@ -20,6 +22,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "electron": "^34.0.2",
     "eslint": "^8",
     "eslint-config-next": "15.0.3",
     "postcss": "^8",
