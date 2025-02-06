@@ -16,18 +16,18 @@ export default  function Home() {
 
       <div className="flex flex-row justify-items-center px-20 py-2 gap-14 m-4"> 
         
-        <div className="p-4 bg-slate-300 w-80 h-96 rounded-md">
+        <div className="p-4 bg-slate-300 w-80 h-96 rounded-md shadow-xl">
           <h2 className="text-center"><strong>Propietarios</strong></h2>
           <ListUsuarios/>
 
         </div>
         
-        <div className="p-4 bg-slate-300 w-80 h-96 rounded-md"> 
+        <div className="p-4 bg-slate-300 w-80 h-96 rounded-md shadow-xl"> 
           <h2 className="text-center"> <strong>Pagos recientes</strong></h2>
           <PagosRecientes/>
         </div>
 
-        <div className="px-2 py-10 bg-slate-300 rounded-md w-5/12 h-96"> 
+        <div className="px-2 py-10 bg-slate-300 rounded-md w-5/12 h-96 shadow-xl"> 
           
           <h2 className="text-center"><strong>Lista de apartamentos solventes</strong></h2>
           <Solvente/>
